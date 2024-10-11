@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .glove-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .glove-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 23%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .glove-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .glove-card:hover .glove-img {
+    transform: scale(1.1);
+  }
+  
+  .glove-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .glove-card h3 {
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  .glove-card p {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  /* Pagination Styling */
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .page-number {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .page-number.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .page-number:hover {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .glove-card {
+      width: 48%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .glove-card {
+      width: 100%;
+    }
+  }
+  /* MARQUEE */
+  .marquee-container {
+    background-color: red;
+    padding: 10px 0;
+}
+
+.marquee-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    animation: fadeInText 2s ease-in-out infinite;
+}
+
+/* *****************************************************************************8 */
+
